@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Currency to DKK Converter",
+  "version": "1.0",
+  "description": "Adds a context menu to convert selected currency amounts to Danish kroner.",
+  "permissions": ["contextMenus", "scripting", "activeTab", "storage", "notifications"],
+  "host_permissions": [
+    "https://api.exchangerate.host/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

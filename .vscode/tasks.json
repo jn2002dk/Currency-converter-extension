@@ -1,0 +1,13 @@
+{
+  // ...existing code...
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Package Extension (zip)",
+      "type": "shell",
+      "command": "Compress-Archive -Path * -DestinationPath convgem.zip",
+      "problemMatcher": [],
+      "group": "build"
+    }
+  ]
+}
