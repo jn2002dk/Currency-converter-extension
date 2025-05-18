@@ -4,7 +4,7 @@ This is a Chromium browser extension that adds a context menu item to convert se
 
 ## Features
 - Right-click any selected currency amount on a page to convert it to DKK.
-- Uses exchangerate.host for real-time conversion.
+- Uses ECB on first daily run to get exhange rates.
 
 ## Installation
 1. Go to `chrome://extensions/` in your Chromium browser.
